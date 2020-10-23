@@ -16,16 +16,16 @@ import kotlinx.android.synthetic.main.activity_quiz_questions.*
 
 class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
 
-    private var mCurrentPosition: Int = 1 // Default and the first question position
+    private var mCurrentPosition: Int = 1
     private var mQuestionsList: ArrayList<Question>? = null
 
     private var mSelectedOptionPosition: Int = 0
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        //This call the parent constructor
+
         super.onCreate(savedInstanceState)
-        // This is used to align the xml view to this class
+
         setContentView(R.layout.activity_quiz_questions)
 
         mQuestionsList = Constants.getQuestions()
@@ -37,10 +37,9 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
         tv_option_three.setOnClickListener(this)
         tv_option_four.setOnClickListener(this)
 
-        // TODO(STEP 1: Adding a click event for submit button.)
-        // START
+
         btn_submit.setOnClickListener(this)
-        // END
+
     }
 
     override fun onClick(v: View?) {
@@ -111,7 +110,7 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
 
     private fun setQuestion() {
 
-        val question = mQuestionsList!!.get(mCurrentPosition - 1) // Getting the question from the list with the help of current position.
+        val question = mQuestionsList!!.get(mCurrentPosition - 1)
 
         defaultOptionsView()
 
@@ -201,5 +200,5 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
             }
         }
     }
-    // END
+
 }
