@@ -19,8 +19,8 @@ object Constants {
         val que2 = Question(
             2, "vad är det här för skylt?",
             R.drawable.stoppskylt,
-            "Angola", "Austria",
-            "stoppskylt", "Armenia", 3
+            "mötesplats", "väjningsplikt",
+            "stoppskylt", "enkelriktad", 3
         )
 
         questionsList.add(que2)
@@ -29,8 +29,8 @@ object Constants {
         val que3 = Question(
             3, "vad är det här för skylt?",
             R.drawable.hufvudled,
-            "Belarus", "Belize",
-            "Brunei", "huvudled", 4
+            "maxhastighet 30km/H", "stoppskylt",
+            "påbjuden körbana", "huvudled", 4
         )
 
         questionsList.add(que3)
@@ -39,8 +39,8 @@ object Constants {
         val que4 = Question(
             4, "vad är det här för skylt?",
             R.drawable.slirigvag,
-            "Bahamas", "varning för slirig väg",
-            "Barbados", "Belize", 2
+            "förbjudet område", "varning för slirig väg",
+            "påfart", "avfart", 2
         )
 
         questionsList.add(que4)
@@ -49,8 +49,8 @@ object Constants {
         val que5 = Question(
             5, "vad är det här för skylt?",
             R.drawable.pabjudenkorbana,
-            "Gabon", "France",
-            "Fiji", "påbjuden körbana", 3
+            "stenskott", "skarp sväng",
+            "påbjuden körbana", "påbjuden körbana", 3
         )
 
         questionsList.add(que5)
@@ -60,7 +60,7 @@ object Constants {
             6, "vad är det här för skylt?",
             R.drawable.slalom,
             "förbud mot omkörning", "Georgia",
-            "Greece", "none of these", 1
+            "parkering", "inget av ovanstående", 1
         )
 
         questionsList.add(que6)
@@ -69,8 +69,8 @@ object Constants {
         val que7 = Question(
             7, "vad är det här för skylt?",
             R.drawable.vajn,
-            "Dominica", "Egypt",
-            "väjningsplikt", "Ethiopia", 3
+            "övergångsställe", "huvudled",
+            "väjningsplikt", "vägkorsning", 3
         )
 
         questionsList.add(que7)
@@ -79,8 +79,8 @@ object Constants {
         val que8 = Question(
             8, "vad är det här för skylt?",
             R.drawable.witch,
-            "Ireland", "Iran",
-            "Hungary", "förbud mot häxor", 4
+            "cykelled", "övergångsställe",
+            "stopplikt", "förbud mot häxor", 4
         )
 
         questionsList.add(que8)
@@ -89,8 +89,8 @@ object Constants {
         val que9 = Question(
             9, "vad är det här för skylt?",
             R.drawable.motorvagskylt,
-            "Australia", "motorväg",
-            "Tuvalu", "United States of America", 2
+            "väjningsplikt", "motorväg",
+            "rondell", "huvudled", 2
         )
 
         questionsList.add(que9)
@@ -99,8 +99,8 @@ object Constants {
         val que10 = Question(
             10, "vad är det här för skylt?",
             R.drawable.vajningmot,
-            "väjningsplikt mot mötande fordon", "Jordan",
-            "Sudan", "Palestine", 1
+            "väjningsplikt mot mötande fordon", "huvudled upphör",
+            "krokig väg", "rekommenderad högsta hastighet", 1
         )
 
         questionsList.add(que10)
